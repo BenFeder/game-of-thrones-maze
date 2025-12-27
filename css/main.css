@@ -1,0 +1,56 @@
+* {
+  background-color: rgb(161, 37, 37);
+}
+
+.headingSection {
+  display: flex;
+  margin-left: 75px;
+}
+
+img {
+  height: 40px;
+  padding: 40px;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.row {
+  display: flex;
+  overflow: relative;
+  margin-left: 75px;
+}
+
+.wall {
+  height: 30px;
+  width: 30px;
+  background-color: darkgray;
+}
+
+.path {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+}
+
+.player {
+  height: 30px;
+  width: 30px;
+  background-image: url(https://www.biography.com/.image/t_share/MTE5NTU2MzE2NTMzMzI3Mzcx/peter-dinklage-20787107-1-402.jpg);
+  background-size: cover;
+  animation-duration: 100ms;
+}
+
+.finish {
+  height: 30px;
+  width: 30px;
+  background-image: url(https://lh3.googleusercontent.com/OuZqDwJcoCna3sbEjlV58dwBxk2bFYdgwRqe3xOphhAm5RymSSfud3qNSy4pSaRYB9M);
+  background-size: cover;
+}
+
+.displayWin {
+  font-size: 60px;
+  font-weight: bold;
+}
